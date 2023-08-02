@@ -1,0 +1,51 @@
+.stepper {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    border-bottom: 2px solid #083c80;
+  }
+  
+  .stepper__step {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+    color: #083c80;
+    background-color: white;
+    padding: 10px;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .stepper__step.active {
+    opacity: 1;
+    background-color: #083c80;
+    color: white;
+
+  }
+  
+  .stepper__step-icon {
+    font-size: 24px;
+    margin-bottom: 5px;
+  }
+  
+  .stepper__step-label {
+    font-size: 12px;
+    text-align: center;
+  }
+  
+  .icon-info:before {
+    content: '\f129';
+  }
+  
+  .icon-choice:before {
+    content: '\f1eb';
+  }
+  
+  .icon-user-info:before {
+    content: '\f007';
+  }
+  
+  .icon-summary:before {
+    content: '\f016';
+  }
+  
