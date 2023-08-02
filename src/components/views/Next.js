@@ -30,7 +30,7 @@ function Next(props) {
               </div>
               <div class="card-body">
                 <h5 class="card-title">{id != 15 ? id != 10 ? "commencons l'examen ..." : "commencons les examens ..." : "Nous vous attendons sur place"} </h5>
-                <Link to="/react-project_medecine" class="btn btn-dark">Retour</Link>
+                <Link to="/" class="btn btn-dark">Retour</Link>
               </div>
         </div>
     </div>

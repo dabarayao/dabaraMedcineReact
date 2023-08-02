@@ -6,7 +6,7 @@ export default class Footer extends Component {
     return (
       <>
                 <div class="col-1 col-md-1"></div>
-                <div class="col-1 col-md-1"><Link to="/react-project_medecine" className='btn btn-dark'>Retour</Link> </div>
+                <div class="col-1 col-md-1"><Link to="/" className='btn btn-dark'>Retour</Link> </div>
                 <div class="col-6 col-md-6"></div>
                 <div class="col-4 col-md-4" style={{  display: "flex", alignItems: "center" }}>
                     <Link to="/suivant" style={{ fontSize: "17px", color: 'blue' }}>Je trouve pas mon examen</Link>
